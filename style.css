@@ -1,0 +1,118 @@
+@font-face {
+    font-family:'BigShoulders';
+    src: url("./Fonts/Big_Shoulders/static/BigShoulders-Thin.ttf");
+}
+@font-face {
+    font-family: 'LexendDeca';
+    src: url(./Fonts/Lexend_Deca/static/LexendDeca-Light.ttf);
+}
+#Sedans,
+#SUVs,
+#Luxury,
+h4 {
+    border: 2px solid;
+    padding: 20px;
+}
+
+#Sedans,
+#SUVs,
+#Luxury{
+   
+    width: 229.6px;
+    font-family: 'LexendDeca';
+}
+
+#all{
+    display: flex;
+    
+    width:688.8px;
+    padding-left:25%;
+}
+
+#Sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    border-color: hsl(31, 77%, 52%);
+}
+
+#SUVs {
+    background-color: hsl(184, 100%, 22%);
+    border-color: hsl(184, 100%, 22%);
+}
+
+#Luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'BigShoulders', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h4 {
+
+    padding: 5px;
+    width: 87px;
+    border-radius: 50px;
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%)
+}
+
+
+.Sedanslearn {
+
+    color: hsl(31, 77%, 52%);
+}
+
+.SUVslearn {
+    color: hsl(184, 100%, 22%);
+}
+
+.Luxurylearn {
+    color: hsl(179, 100%, 13%);
+}
+
+.Sedanslearn:hover,
+.Luxurylearn:hover,
+.SUVslearn:hover{
+    color: hsl(0, 0%, 95%) ;
+    border: 2px solid  hsl(0, 0%, 95%) ;
+}
+.Sedanslearn:hover{
+    background-color:hsl(31, 77%, 52%) ;
+}
+.SUVslearn:hover{
+    background-color:hsl(184, 100%, 22%) ;
+}
+.Luxurylearn:hover{
+    background-color: hsl(179, 100%, 13%);
+}
+.attribution{
+    text-align: center;
+}
+@media screen and (max-width : 400px){
+    #all{
+        display: flex;
+        flex-direction: column;
+        width: 275px;
+        padding-left: 15%;
+    }
+    #Sedans {
+        border-radius: 10px 10px 0px 0px;
+    }
+    #Luxury {
+        border-radius: 0px 0px 10px 10px;
+    }
+    #Sedans,
+    #SUVs,
+    #Luxury{
+    width: 231px;
+    }
+}
