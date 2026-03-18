@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Overview of site](./screenshot.png)
+![Overview of site](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [https://github.com/MAXbcv/3-column-preview-card-component]
+- Solution URL: [https://www.frontendmentor.io/solutions/cardflex-GQ1-t57gZ9]
 - Live Site URL: [https://maxbcv.github.io/3-column-preview-card-component/]
 
 ## My process
